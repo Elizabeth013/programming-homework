@@ -4,8 +4,8 @@ using namespace std;
 void task4_1(int a) {
     int a1=a>>1;
     a1=a1<<1;
-    if(a1^a) cout<<"нечетное"<<endl; 
-	else cout<<"четное"<<endl;
+    if(a1^a) cout<<"РЅРµС‡РµС‚РЅРѕРµ"<<endl; 
+	else cout<<"С‡РµС‚РЅРѕРµ"<<endl;
 }
 
 void task4_2(int a,int b) {
@@ -22,7 +22,7 @@ int main() {
     int n;  
     int a,b;
     do {
-    	cout<<"1-определение четности"<<endl<<"2-поменять значение переменных местами"<<endl<<"3-умножение на 8"<<endl<<"0-выход"<<endl<<"comand:";
+    	cout<<"1-РѕРїСЂРµРґРµР»РµРЅРёРµ С‡РµС‚РЅРѕСЃС‚Рё С‡РёСЃР»Р°"<<endl<<"2-РїРѕРјРµРЅСЏС‚СЊ Р·РЅР°С‡РµРЅРёСЏ РїРµСЂРµРјРµРЅРЅС‹С… РјРµСЃС‚Р°РјРё"<<endl<<"3-СѓРјРЅРѕР¶РµРЅРёРµ РЅР° 8"<<endl<<"0-РІС‹С…РѕРґ"<<endl<<"comand:";
 		cin>>n;
         switch(n) {
             case 1:  cout<<"a="; cin>>a; task4_1(a); break;
